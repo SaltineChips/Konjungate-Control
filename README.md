@@ -36,7 +36,7 @@ Konjungate uses
 	Boost1.68, OR Boost1.58,  
 	Openssl1.02r,
 	Berkeley DB 6.2.32,
-	QT5.12.1,
+	QT5.15,
 	to compile
 
 
@@ -118,6 +118,16 @@ rpcport=18495
 port=19417
 rpcconnect=127.0.0.1
 rpcallowip=127.0.0.1
+addnode=188.166.109.87
+addnode=188.166.109.87:19417
+addnode=80.110.125.108
+addnode=80.110.125.108:19417
+addnode=192.168.1.114
+addnode=192.168.1.114:19417
+addnode=139.99.239.62
+addnode=139.99.239.62:19417
+addnode=37.187.180.53
+addnode=37.187.180.53:19417
 CONFIG
 chmod 700 ~/.KONJ/Konjungate.conf; chmod 700 ~/.KONJ; ls -la ~/.KONJ
 ```
